@@ -6,13 +6,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "add layout": "npx nuxi add layout default",
+    "add page": "npx nuxi add page index",
+    "add component": "npx nuxi add component demoFolder/BtnBlue",
+    "add composable": "npx nuxi add composable demo",
+    "add api": "npx nuxi add api auth/demo.get"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "6.8.0",
     "nuxt": "^3.7.4",
     "nuxt-primevue": "^0.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.13",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
