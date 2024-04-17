@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   primevue: {
     cssLayerOrder: 'tailwind-base, primevue, tailwind-utilities',
     components: {
-      exclude: ['Editor', 'Chart'],
-    },
+      exclude: ['Editor', 'Chart']
+    }
   },
-  css: ['primevue/resources/themes/lara-dark-indigo/theme.css'],
-});
+  css: ['primevue/resources/themes/lara-dark-indigo/theme.css']
+})
