@@ -1,6 +1,6 @@
 <template>
-  <div class="p-10 bg-gray-700 h-full">
-    <div>Page: foo</div>
-    <demoFolder-demo />
+  <div class="h-full bg-gray-700 p-10">
+    <div>Page: index</div>
+    <demoFolder-DemoComponent />
   </div>
 </template>
